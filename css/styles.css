@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background: #F5EEC6;
+  color: #4d380e;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.logo img {
+  width: 160px;
+  mix-blend-mode: multiply;
+}
+
+.logo h3 {
+  margin-left: 15px;
+  color: #4d380e;
+  font-family: "Helvetica";
+  font-size: 28px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 30px;
+  padding: 0;
+}
+
+.navItem {
+  display: flex;
+  flex-grow: 1;
+  transition: all 0.5s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.navItem a {
+  display: block;
+  width: 100%;
+  padding: 20px 30px;
+  color: #61451b;
+  text-decoration: none;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.navItem:hover {
+  flex-grow: 2;
+  background-color: #61451b;
+}
+
+.navItem:hover a {
+  color: #F5EEC6;
+}
+
+.header-img {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.header-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.coffee {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F5EEC6;
+}
+
+.coffee-text {
+  color: #61451b;
+  width: 45%;
+  background-color: #F5EEC6;
+  padding: 20px;
+  font-size: 19px;
+}
+
+.coffee img {
+  width: 45%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F5EEC6;
+  height: auto;
+}
+
+.cats {
+  display: flex;
+  justify-content: space-around;
+  background-color: #61451b;
+}
+
+.cats-text {
+  color: #F5EEC6;
+  width: 45%;
+  background-color: #61451b;
+  padding: 30px;
+  font-size: 19px;
+}
+
+.cats img {
+  width: 45%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #61451b;
+  height: auto;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  background-color: #F5EEC6;
+  padding: 30px;
+}
+
+.testimonial-text {
+  padding-left: 30px;
+  color: #82540f;
+}
+
+.testimonial-text p {
+  font-size: 18px;
+}
+
+footer {
+  background-color: #4d380e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: "Helvetica";
+}
+
+footer p {
+  margin: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.social-icons img {
+  width: 35px;
+  height: 35px;
+  background-color: #F5EEC6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+}
